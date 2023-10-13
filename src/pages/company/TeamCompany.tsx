@@ -1,0 +1,254 @@
+export default function Team() {
+  return (
+    <div className="bg-gray-900 py-16 sm:py-32">
+      <div className="mx-auto max-w-7xl px-6 text-center lg:px-8">
+        <div className="mx-auto max-w-2xl">
+          <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Conoce al equipo</h2>
+          <p className="mt-4 text-lg leading-8 text-gray-300">Somos un grupo diverso de individuos apasionados por lo que hacen.</p>
+        </div>
+        <ul role="list" className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+          {/* Javier Cordero */}
+          <li className="group hover:scale-105 transform transition-all ease-in-out duration-500">
+            <img className="mx-auto h-48 w-48 sm:h-56 sm:w-56 rounded-full object-cover grayscale" src="images/team_photos/DSC_0195.jpg" alt="" />
+            <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-white">Javier Cordero</h3>
+            <p className="text-sm font-semibold leading-6 text-indigo-500 group-hover:text-pink-500 transition-all ease-in-out duration-500">CEO & Co-founder</p>
+            <ul role="list" className="mt-6 flex justify-center gap-x-6">
+              {/* <li>
+                <a href="#" className="text-gray-300 hover:text-gray-400">
+                  <span className="sr-only">Twitter</span>
+                  <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
+                  </svg>
+                </a>
+              </li> */}
+              <li>
+                <a href="https://www.linkedin.com/in/javier-cordero-039341224/" target="_blank" className="text-gray-300 hover:text-gray-400">
+                  <span className="sr-only">LinkedIn</span>
+                  <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+          {/* Guillermo Salles */}
+          <li className="group hover:scale-105 transform transition-all ease-in-out duration-500">
+            <img className="mx-auto h-48 w-48 sm:h-56 sm:w-56 rounded-full object-cover grayscale" src="images/team_photos/DSC_0165.jpg" alt="" />
+            <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-white">Guillermo Salles</h3>
+            <p className="text-sm font-semibold leading-6 text-indigo-500 group-hover:text-pink-500 transition-all ease-in-out duration-500">CFO & Co-founder</p>
+            <ul role="list" className="mt-6 flex justify-center gap-x-6">
+              {/* <li>
+                <a href="#" className="text-gray-300 hover:text-gray-400">
+                  <span className="sr-only">Twitter</span>
+                  <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
+                  </svg>
+                </a>
+              </li> */}
+              <li>
+                <a href="https://www.linkedin.com/in/guillermo-salles-3a0b23239/" target="_blank" className="text-gray-300 hover:text-gray-400">
+                  <span className="sr-only">LinkedIn</span>
+                  <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+          {/* Esteban Dworak */}
+          <li className="group hover:scale-105 transform transition-all ease-in-out duration-500">
+            <img className="mx-auto h-48 w-48 sm:h-56 sm:w-56 rounded-full" src="" alt="" />
+            <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-white">Esteban Dworak</h3>
+            <p className="text-sm font-semibold leading-6 text-indigo-500 group-hover:text-pink-500 transition-all ease-in-out duration-500">CTO</p>
+            <ul role="list" className="mt-6 flex justify-center gap-x-6">
+              {/* <li>
+                <a href="#" className="text-gray-300 hover:text-gray-400">
+                  <span className="sr-only">Twitter</span>
+                  <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
+                  </svg>
+                </a>
+              </li> */}
+              <li>
+                <a href="https://www.linkedin.com/in/juan-alvaro-hecht-garcin-a1390b209/" target="_blank" className="text-gray-300 hover:text-gray-400">
+                  <span className="sr-only">LinkedIn</span>
+                  <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+          {/* Saul Gallegos */}
+          <li className="group hover:scale-105 transform transition-all ease-in-out duration-500">
+            <img className="mx-auto h-48 w-48 sm:h-56 sm:w-56 rounded-full object-cover grayscale" src="https://media.licdn.com/dms/image/D5603AQGJdGDDnunwmA/profile-displayphoto-shrink_400_400/0/1688798138278?e=1700092800&v=beta&t=TL5gawC3dSa1qPhVK05Dml1XOdmDoBSKdCfkmdirWqU" alt="" />
+            <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-white">Saul Gallegos</h3>
+            <p className="text-sm font-semibold leading-6 text-indigo-500 group-hover:text-pink-500 transition-all ease-in-out duration-500">Tech Lead</p>
+            <ul role="list" className="mt-6 flex justify-center gap-x-6">
+              {/* <li>
+                <a href="#" className="text-gray-300 hover:text-gray-400">
+                  <span className="sr-only">Twitter</span>
+                  <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
+                  </svg>
+                </a>
+              </li> */}
+              <li>
+                <a href="https://www.linkedin.com/in/saulgallegos/" target="_blank" className="text-gray-300 hover:text-gray-400">
+                  <span className="sr-only">LinkedIn</span>
+                  <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+          {/* Jaime Lopez Hidalgo */}
+          <li className="group hover:scale-105 transform transition-all ease-in-out duration-500">
+            <img className="mx-auto h-48 w-48 sm:h-56 sm:w-56 rounded-full object-cover grayscale" src="images/team_photos/IMG_8779.JPG" alt="" />
+            <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-white">Jaime Lopez-Hidalgo</h3>
+            <p className="text-sm font-semibold leading-6 text-indigo-500 group-hover:text-pink-500 transition-all ease-in-out duration-500">Frontend Web Developer</p>
+            <ul role="list" className="mt-6 flex justify-center gap-x-6">
+              {/* <li>
+                <a href="#" className="text-gray-300 hover:text-gray-400">
+                  <span className="sr-only">Twitter</span>
+                  <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
+                  </svg>
+                </a>
+              </li> */}
+              <li>
+                <a href="https://www.linkedin.com/in/jaimelopezhidalgo00/" target="_blank" className="text-gray-300 hover:text-gray-400">
+                  <span className="sr-only">LinkedIn</span>
+                  <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+          {/* Esteban Ortiz */}
+          <li className="group hover:scale-105 transform transition-all ease-in-out duration-500">
+            <img className="mx-auto h-48 w-48 sm:h-56 sm:w-56 rounded-full object-cover grayscale" src="images/team_photos/DSC_0180.jpg" alt="" />
+            <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-white">Esteban Ortiz</h3>
+            <p className="text-sm font-semibold leading-6 text-indigo-500 group-hover:text-pink-500 transition-all ease-in-out duration-500">Frontend Web Developer</p>
+            <ul role="list" className="mt-6 flex justify-center gap-x-6">
+              {/* <li>
+                <a href="#" className="text-gray-300 hover:text-gray-400">
+                  <span className="sr-only">Twitter</span>
+                  <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
+                  </svg>
+                </a>
+              </li> */}
+              <li>
+                <a href="https://www.linkedin.com/in/esteban-ortiz-hern%C3%A1ndez/" target="_blank" className="text-gray-300 hover:text-gray-400">
+                  <span className="sr-only">LinkedIn</span>
+                  <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+          {/* Jose Salcedo */}
+          <li className="group hover:scale-105 transform transition-all ease-in-out duration-500">
+            <img className="mx-auto h-48 w-48 sm:h-56 sm:w-56 rounded-full object-cover grayscale" src="images/team_photos/DSC_0188.jpg" alt="" />
+            <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-white">Jose Salcedo</h3>
+            <p className="text-sm font-semibold leading-6 text-indigo-500 group-hover:text-pink-500 transition-all ease-in-out duration-500">Fullstack Developer</p>
+            <ul role="list" className="mt-6 flex justify-center gap-x-6">
+              {/* <li>
+                <a href="#" className="text-gray-300 hover:text-gray-400">
+                  <span className="sr-only">Twitter</span>
+                  <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
+                  </svg>
+                </a>
+              </li> */}
+              <li>
+                <a href="https://www.linkedin.com/in/esteban-ortiz-hern%C3%A1ndez/" target="_blank" className="text-gray-300 hover:text-gray-400">
+                  <span className="sr-only">LinkedIn</span>
+                  <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+          {/* Carlos Gonzalez */}
+          <li className="group hover:scale-105 transform transition-all ease-in-out duration-500">
+            <img className="mx-auto h-48 w-48 sm:h-56 sm:w-56 rounded-full object-cover grayscale" src="https://media.licdn.com/dms/image/D5603AQG62FtDA2-URw/profile-displayphoto-shrink_200_200/0/1689119003546?e=1695254400&v=beta&t=nPDZwG_s2No71YIim3CsQX8IwOsHR6PDlnNT2X9pPRM" alt="" />
+            <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-white">Carlos Gonzalez</h3>
+            <p className="text-sm font-semibold leading-6 text-indigo-500 group-hover:text-pink-500 transition-all ease-in-out duration-500">Sales Lead</p>
+            <ul role="list" className="mt-6 flex justify-center gap-x-6">
+              {/* <li>
+                <a href="#" className="text-gray-300 hover:text-gray-400">
+                  <span className="sr-only">Twitter</span>
+                  <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
+                  </svg>
+                </a>
+              </li> */}
+              <li>
+                <a href="https://www.linkedin.com/in/carlos-gonzalez-72121227a/" target="_blank" className="text-gray-300 hover:text-gray-400">
+                  <span className="sr-only">LinkedIn</span>
+                  <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+          {/* Mateo Gonzalez */}
+          <li className="group hover:scale-105 transform transition-all ease-in-out duration-500">
+            <img className="mx-auto h-48 w-48 sm:h-56 sm:w-56 rounded-full object-cover grayscale" src="images/team_photos/DSC_0212.jpg" alt=""/>
+            <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-white">Mateo Gonzalez</h3>
+            <p className="text-sm font-semibold leading-6 text-indigo-500 group-hover:text-pink-500 transition-all ease-in-out duration-500">Creative Director</p>
+            <ul role="list" className="mt-6 flex justify-center gap-x-6">
+              {/* <li>
+                <a href="#" className="text-gray-300 hover:text-gray-400">
+                  <span className="sr-only">Twitter</span>
+                  <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
+                  </svg>
+                </a>
+              </li> */}
+              <li>
+                <a href="https://www.linkedin.com/in/mateo-gonzalez-69015a289/" target="_blank" className="text-gray-300 hover:text-gray-400">
+                  <span className="sr-only">LinkedIn</span>
+                  <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+          {/* Lucia Vela */}
+          <li className="group hover:scale-105 transform transition-all ease-in-out duration-500">
+            <img className="mx-auto h-48 w-48 sm:h-56 sm:w-56 rounded-full object-cover grayscale" src="images/team_photos/DSC_0196.jpg" alt="" />
+            <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-white">Lucía Vela</h3>
+            <p className="text-sm font-semibold leading-6 text-indigo-500 group-hover:text-pink-500 transition-all ease-in-out duration-500">Marketing</p>
+            <ul role="list" className="mt-6 flex justify-center gap-x-6">
+              {/* <li>
+                <a href="#" className="text-gray-300 hover:text-gray-400">
+                  <span className="sr-only">Twitter</span>
+                  <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
+                  </svg>
+                </a>
+              </li> */}
+              <li>
+                <a href="https://www.linkedin.com/in/nicolas-levy-71b7b4209/" target="_blank" className="text-gray-300 hover:text-gray-400">
+                  <span className="sr-only">LinkedIn</span>
+                  <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
+}

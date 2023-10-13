@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+ 
+.slider{
+  margin: auto;
+  overflow-x: hidden;
+  width: fit-content;
+}
+
+.slider .slide-track{
+  display: flex;
+  animation: 12s slide infinite linear;
+}
+
+.slider .slide{
+  flex-shrink: 0;
+} */
